@@ -1,5 +1,8 @@
 # FatSecret Platform API
 
+For detailed information on the API refer directly to the online documentation:
+https://platform.fatsecret.com/api/Default.aspx?screen=rapih
+
 ## Getting started
 
 1. Ensure you have created a FatSecret Platform API account here: https://platform.fatsecret.com/api/
