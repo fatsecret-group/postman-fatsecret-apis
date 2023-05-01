@@ -14,11 +14,13 @@ For detailed information on the API refer directly to the online [documentation]
 
 3. In the "Allowed IP Addresses" section, set your desired IP Address.
 
-4. For OAuth1.0, copy your Consumer Key and Consumer Secret into postman globals as consumer_key and consumer_secret.
+4. Fork the collection: 
 
-5. For OAuth2.0, copy your Client ID and Client Secret into postman globals as client_id and client_secret.
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/25958240-f307c228-34ed-42bb-8866-79dae97523a6?action=collection%2Ffork&collection-url=entityId%3D25958240-f307c228-34ed-42bb-8866-79dae97523a6%26entityType%3Dcollection%26workspaceId%3D97960a9b-5292-4c02-89c1-ded0c29c0641)
 
-![Globals](/images/globals.png)
+5. In your newly forked collection, copy your Consumer Key and Consumer Secret into the collection variables as consumer_key and consumer_secret. Copy your Client ID and Client Secret into the collection variables as client_id and client_secret.
+
+![Variables](/images/variables.png)
 
 ## Using OAuth 1.0 with FatSecret Platform API in Postman:
 
@@ -28,7 +30,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 2. Navigate to Profile - Authentication in postman and call the "Create" endpoint to create a profile and receive an oauth key and oauth secret.
 
-3. Copy your newly created OAuth Key and OAuth Secret into postman globals as access_key and access_secret.
+3. Copy your newly created OAuth Key and OAuth Secret into the collection variables as access_key and access_secret.
 
 ## Using OAuth 2.0 with FatSecret Platform API in Postman:
 
