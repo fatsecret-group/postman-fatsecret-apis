@@ -28,9 +28,11 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Postman OAuth1](/images/oauth1.png)
 
-2. Navigate to Profile - Authentication in postman and call the "Create" endpoint to create a profile and receive an oauth key and oauth secret.
+2. You can now access all endpoints not marked as "Profile".
 
-3. Copy your newly created OAuth Key and OAuth Secret into the collection variables as access_key and access_secret.
+3. For access to "Profile" endpoints, Navigate to Profile - Authentication folder and call the "Create" endpoint to create a profile and receive an oauth key and oauth secret.
+
+4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as access_key and access_secret.
 
 ## Using OAuth 2.0 with FatSecret Platform API in Postman:
 
@@ -42,5 +44,20 @@ For detailed information on the API refer directly to the online [documentation]
 
 3. Use the newly created token.
 
+## Using 3-Legged OAuth with FatSecret Platform API in Postman:
+
+1. Navigate to 3-Legged OAuth section in postman.
+
+![3-Legged OAuth](/images/leg.png)
+
+2. Use the "Request Token" endpoint to request a new oauth token and oauth secret
+
+3. Copy the oauth_token received into the request_token query parameter of the "Authorize" endpoint. Then authorize the oauth token with the auth server.
+
+4. Use the "Access Token" endpoint to get the access token and access secret.
+
+5. Copy the access token and access secret to the access_token and access_secret collection variables.
+
+6. You can now access endpoints in the OAuth1.0 section.
 
 Enjoy the API!
