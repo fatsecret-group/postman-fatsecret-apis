@@ -12,7 +12,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Manage API Keys](/images/manage_keys.png)
 
-3. In the "Allowed IP Addresses" section, whitelist your desired IP Address. We block requests to FatSecret API for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be set.
+3. In the "Allowed IP Addresses" section, whitelist your desired IP Address. We block requests to FatSecret API for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
 
 4. Fork the collection: 
 
