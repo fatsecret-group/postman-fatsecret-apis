@@ -56,6 +56,8 @@ For detailed information on the API refer directly to the online [documentation]
    
 5. Use the "Authorize" endpoint to authorize the oauth_token received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable.
 
+NOTE: You may need to send the authorize request using a browser in order to login and open the callback url response.
+
 6. Finally, Use the "Access Token" endpoint to get the access token and access secret.
 
 7. Copy the access token and access secret to the access_token and access_secret collection variables.
