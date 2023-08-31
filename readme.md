@@ -58,12 +58,16 @@ For detailed information on the API refer directly to the online [documentation]
 
 2. Use the "Request Token" endpoint to request a new oauth token and oauth secret
 
-3. Copy the oauth_token received into the request_token query parameter of the "Authorize" endpoint. Then authorize the oauth token with the auth server.
+3. Copy the oauth_token and oauth_secret received into the collection variables.
+   
+5. Use the "Authorize" endpoint to authorize the oauth_token received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable.
 
-4. Use the "Access Token" endpoint to get the access token and access secret.
+NOTE: You may need to send the authorize request using a browser in order to login and open the callback url response.
 
-5. Copy the access token and access secret to the access_token and access_secret collection variables.
+6. Finally, Use the "Access Token" endpoint to get the access token and access secret.
 
-6. You can now access endpoints in the OAuth1.0 section.
+7. Copy the access token and access secret to the access_token and access_secret collection variables.
+
+8. You can now access endpoints in the OAuth1.0 section.
 
 Enjoy the API!
