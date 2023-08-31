@@ -12,7 +12,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Login Menu](/images/login_menu.png)
 
-3. Navigate to "Generate / View API Keys".
+3. Navigate to "IP Restrictions".
 
 ![Manage API Keys](/images/view_api_keys.png)
 
