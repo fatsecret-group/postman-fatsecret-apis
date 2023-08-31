@@ -20,7 +20,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![IP Whitelist](/images/ip_whitelist.png)
 
-5. Now head to Postman and fork the collection by clicking the "Run in Postman " button:
+5. Now head to Postman and fork the collection by clicking the "Run in Postman" button:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/25958240-f307c228-34ed-42bb-8866-79dae97523a6?action=collection%2Ffork&collection-url=entityId%3D25958240-f307c228-34ed-42bb-8866-79dae97523a6%26entityType%3Dcollection%26workspaceId%3D97960a9b-5292-4c02-89c1-ded0c29c0641)
 
@@ -59,8 +59,7 @@ For detailed information on the API refer directly to the online [documentation]
 2. Use the "Request Token" endpoint to request a new oauth token and oauth secret
 
 3. Copy the oauth_token and oauth_secret received into the collection variables.
-   
-5. Use the "Authorize" endpoint to authorize the oauth_token received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable.
+4. Use the "Authorize" endpoint to authorize the oauth_token received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable.
 
 NOTE: You may need to send the authorize request using a browser in order to login and open the callback url response.
 
