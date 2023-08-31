@@ -4,21 +4,27 @@ For detailed information on the API refer directly to the online [documentation]
 
 ## Getting started
 
-1. Ensure you have created a FatSecret Platform API account [here](https://platform.fatsecret.com/api/)
+1. Ensure you have created a FatSecret Platform API account [here](https://platform.fatsecret.com/api/) and sign in.
 
 ![FatSecret Platform API](/images/platform.png)
 
-2. Sign into your account and navigate to "Manage API Keys" and then your application.
+2. Navigate to "Generate / View API Keys".
 
-![Manage API Keys](/images/manage_keys.png)
+![Login Menu](/images/login_menu.png)
 
-3. In the "Allowed IP Addresses" section, whitelist your desired IP Address. We block requests to FatSecret API for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
+3. Navigate to "Generate / View API Keys".
 
-4. Fork the collection: 
+![Manage API Keys](/images/view_api_keys.png)
+
+4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to FatSecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
+
+![IP Whitelist](/images/ip_whitelist.png)
+
+5. Now head to Postman and fork the collection by clicking the "Run in Postman " button:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/25958240-f307c228-34ed-42bb-8866-79dae97523a6?action=collection%2Ffork&collection-url=entityId%3D25958240-f307c228-34ed-42bb-8866-79dae97523a6%26entityType%3Dcollection%26workspaceId%3D97960a9b-5292-4c02-89c1-ded0c29c0641)
 
-5. In your newly forked collection, copy your Consumer Key and Consumer Secret into the collection variables as consumer_key and consumer_secret. Copy your Client ID and Client Secret into the collection variables as client_id and client_secret.
+6. In your newly forked collection, copy your Consumer Key and Consumer Secret into the collection variables as consumer_key and consumer_secret. Copy your Client ID and Client Secret into the collection variables as client_id and client_secret.
 
 ![Variables](/images/variables.png)
 
