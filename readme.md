@@ -38,7 +38,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 3. For access to "Profile" endpoints, Navigate to Profile - Authentication folder and call the "Create" endpoint to create a profile and receive an oauth key and oauth secret.
 
-4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as `access_key` and `access_secret`.
+4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as `consumer_key` and `consumer_secret`.
 
 ## Using OAuth 2.0 with fatsecret Platform API in Postman:
 
