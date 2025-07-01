@@ -1,12 +1,12 @@
-# FatSecret Platform API
+# fatsecret Platform API
 
 For detailed information on the API refer directly to the online [documentation](https://platform.fatsecret.com/api/Default.aspx?screen=rapih)
 
 ## Getting started
 
-1. Ensure you have created a FatSecret Platform API account [here](https://platform.fatsecret.com/api/) and sign in.
+1. Ensure you have created a fatsecret Platform API account [here](https://platform.fatsecret.com/api/) and sign in.
 
-![FatSecret Platform API](/images/platform.png)
+![fatsecret Platform API](/images/platform.png)
 
 2. Navigate to "Generate / View API Keys".
 
@@ -16,7 +16,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Manage API Keys](/images/view_api_keys.png)
 
-4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to FatSecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
+4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to fatsecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
 
 ![IP Whitelist](/images/ip_whitelist.png)
 
@@ -28,7 +28,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Variables](/images/variables.png)
 
-## Using OAuth 1.0 with FatSecret Platform API in Postman:
+## Using OAuth 1.0 with fatsecret Platform API in Postman:
 
 1. Navigate to API Reference (OAuth 1.0) section in postman.
 
@@ -40,7 +40,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as access_key and access_secret.
 
-## Using OAuth 2.0 with FatSecret Platform API in Postman:
+## Using OAuth 2.0 with fatsecret Platform API in Postman:
 
 1. Navigate to API Reference (OAuth 2.0) section in postman.
 
@@ -50,7 +50,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 3. Use the newly created token.
 
-## Using 3-Legged OAuth with FatSecret Platform API in Postman:
+## Using 3-Legged OAuth with fatsecret Platform API in Postman:
 
 1. Navigate to 3-Legged OAuth section in postman.
 
