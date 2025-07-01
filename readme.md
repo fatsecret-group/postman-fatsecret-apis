@@ -16,7 +16,11 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Manage API Keys](/images/view_api_keys.png)
 
+<<<<<<< HEAD
 4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to fatsecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
+=======
+4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to FatSecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 IP addresses can be whitelisted. Up to 15 IP address ***ranges*** can be whitelisted for premier users.
+>>>>>>> 9a99d8403dbd6f2867ca3316b5374f748c07830e
 
 ![IP Whitelist](/images/ip_whitelist.png)
 
@@ -38,7 +42,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 3. For access to "Profile" endpoints, Navigate to Profile - Authentication folder and call the "Create" endpoint to create a profile and receive an oauth key and oauth secret.
 
-4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as access_key and access_secret.
+4. Copy your newly created OAuth Key and OAuth Secret into the collection variables as `access_key` and `access_secret`.
 
 ## Using OAuth 2.0 with fatsecret Platform API in Postman:
 
@@ -58,14 +62,15 @@ For detailed information on the API refer directly to the online [documentation]
 
 2. Use the "Request Token" endpoint to request a new oauth token and oauth secret
 
-3. Copy the oauth_token and oauth_secret received into the collection variables.
-4. Use the "Authorize" endpoint to authorize the oauth_token received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable.
+3. Copy the `oauth_token` and `oauth_secret` received into the collection variables.
+
+4. Use the "Authorize" endpoint to authorize the `oauth_token` received. You will need to log in to your fatsecret account to do this. A link should return the verifier value, copy this into the collection variable `oauth_verifier`.
 
 NOTE: You may need to send the authorize request using a browser in order to login and open the callback url response.
 
 6. Finally, Use the "Access Token" endpoint to get the access token and access secret.
 
-7. Copy the access token and access secret to the access_token and access_secret collection variables.
+7. Copy the received oauth token and oauth token secret from the "Request Token" end point to the `access_token` and `access_secret` collection variables.
 
 8. You can now access endpoints in the OAuth1.0 section.
 
