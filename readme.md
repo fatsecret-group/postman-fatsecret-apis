@@ -16,11 +16,7 @@ For detailed information on the API refer directly to the online [documentation]
 
 ![Manage API Keys](/images/view_api_keys.png)
 
-<<<<<<< HEAD
-4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to fatsecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 ranges of IP addresses can be whitelisted.
-=======
-4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to FatSecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 IP addresses can be whitelisted. Up to 15 IP address ***ranges*** can be whitelisted for premier users.
->>>>>>> 9a99d8403dbd6f2867ca3316b5374f748c07830e
+4. In the "IP Restrictions" section, whitelist your desired IP Address. We block requests to fatsecret API for OAuth2.0 for a Key/Secret if the source IP is not white listed. Up to 15 IP addresses can be whitelisted. Up to 15 IP address **_ranges_** can be whitelisted for premier users.
 
 ![IP Whitelist](/images/ip_whitelist.png)
 
